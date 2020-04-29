@@ -1,0 +1,8 @@
+.total-members{
+    margin: 0px;
+    padding: 0px;
+}
+.total-members li{
+    list-style: none;
+    margin-bottom: 10px;
+}

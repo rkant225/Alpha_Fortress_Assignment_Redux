@@ -1,0 +1,45 @@
+.header{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px 2px 50px 50px;
+}
+
+.header a{
+    display: inline-block;
+}
+
+.logo{
+    flex: 80%;
+    margin-left: 10px;
+    color: rgb(19, 91, 226);
+    font-size: 20px;
+}
+
+.logo a{
+    cursor: pointer;
+}
+
+.header-links{
+    flex: 40%;
+}
+
+.header-links a{
+    cursor: pointer;
+    margin: 8px;
+}
+
+.header-button{
+    flex: 20%;
+}
+
+.header-button a{
+    cursor: pointer;
+    background-color: rgb(200, 219, 219);
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
